@@ -1,0 +1,54 @@
+Bush1d0
+ - software that generates html on request
+
+Data Types
+ - int
+ - string
+ - boolean
+ - array
+ - struct
+ - hashmap
+ - query
+ - exception
+ - class
+ - enum
+
+Version History
+ - 0.1 (30/04/2016) basic server listening on port
+ - 0.2 (14/05/2016) basic compiler and datasources
+
+<bush1d0>
+    &String temp = 'Hello'
+    >echo temp
+    >include admin/index2.htm
+    ~~ commands
+    ~~   >execution
+    ~~   <return
+    ~~ declarations
+    ~~   &declare (standard)
+    ~~   #static
+    ~~   !final
+    ~~ variable scopes
+    ~~   @session
+    ~~   ?get
+    ~~   $post
+    ~~   *application
+    ~~   %living
+    ~~   local
+    ~~ method modifiers
+    ~~   %abstract
+    ~~   public
+    ~~   ^protected
+    ~~   |private
+    ~~   #static
+    ~~   _no inherit / override?
+    ~~ quotation marks
+    ~~   "1"
+    ~~   '2'
+    ~~   `3`
+    ~~ ref / value (useful for duplicating ?url)
+    ~~   ¬value
+    ~~   :ref
+    ~~ notes
+    ~~   no representation of null?
+</bush1d0>
